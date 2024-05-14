@@ -1,0 +1,31 @@
+{
+    "name": "alertas-futmondo",
+    "version": "1.0.0",
+    "description": "recibir alertas de clausulazos",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vicenteqa/alertas-futmondo.git"
+    },
+    "author": "vicente ruiz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vicenteqa/alertas-futmondo/issues"
+    },
+    "homepage": "https://github.com/vicenteqa/alertas-futmondo#readme",
+    "devDependencies": {
+        "@eslint/js": "^9.2.0",
+        "@types/node": "^20.12.11",
+        "eslint": "^8.57.0",
+        "globals": "^15.2.0",
+        "prettier": "^3.2.5"
+    },
+    "dependencies": {
+        "axios": "^1.6.8",
+        "node-telegram-bot-api": "^0.65.1"
+    }
+}
