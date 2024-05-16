@@ -5,8 +5,8 @@ on:
 
 
 jobs:
-  playwright-stg-checks:
-    name: Run STG checks
+  test-ci:
+    name: test ci
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
