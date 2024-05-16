@@ -1,0 +1,21 @@
+name: "🧪🔎 DXP-E2E-STG-CHECK-PLAYWRIGHT"
+on:
+  workflow_dispatch:
+
+
+
+jobs:
+  playwright-stg-checks:
+    name: Run STG checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.12.0
+      - name: install dependencies
+        run: npm install
+      - name: Hello
+        run: echo "Hello world"  
