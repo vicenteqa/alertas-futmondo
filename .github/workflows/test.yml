@@ -1,4 +1,4 @@
-name: "🧪🔎 DXP-E2E-STG-CHECK-PLAYWRIGHT"
+name: "MY WORKFLOW"
 on:
   workflow_dispatch:
 
